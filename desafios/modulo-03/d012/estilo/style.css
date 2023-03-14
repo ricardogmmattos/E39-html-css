@@ -22,6 +22,7 @@ html, body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
+    font-size: 1vw;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 25px;
     /*
     text-transform: uppercase;
     */
@@ -41,13 +42,15 @@ header > h1 {
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+    font-size: 2vw;
 }
 
 header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 2vw;
 }
 
 header a:hover, footer a:hover {
@@ -58,7 +61,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding-left: 20px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
@@ -77,12 +80,14 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    width: 400px;
+    width: 17
+    0px;
     background-color: rgba(0, 0, 0, 0.25);
     text-shadow: 1px 1px 0px black;
 }
