@@ -40,7 +40,11 @@ menu {
 
 menu > ul {
     list-style: none;
+    list-style-position: inside;
 }
+
+
+
 
 menu > ul > li > a {
     display: block;
